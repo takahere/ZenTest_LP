@@ -503,7 +503,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* RYOMA Promise Section */}
+      {/* ZenMatch Promise Section */}
       <section className="py-16 bg-[#1a1a1a] text-white relative">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className="bg-[#8B6E4F] text-white px-12 py-3 rounded-lg text-2xl font-bold">
