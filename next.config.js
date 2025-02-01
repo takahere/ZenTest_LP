@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/career1',
+  assetPrefix: '/career1',
   output: 'standalone',
   images: {
     unoptimized: true,
