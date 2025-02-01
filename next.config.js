@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/career1',
-  assetPrefix: '/career1',
+  output: 'standalone',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -12,9 +12,7 @@ const nextConfig = {
       },
     ],
     domains: ['picsum.photos'],
-    unoptimized: true
-  },
-  output: 'standalone'
+  }
 }
 
 module.exports = nextConfig 
