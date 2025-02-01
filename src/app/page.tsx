@@ -4,22 +4,22 @@ import Image from "next/image";
 import { ArrowRight } from 'lucide-react'
 
 const COMPANY_LOGOS = [
-  { name: "日本不動産", src: "/logo.svg" },
-  { name: "Numu", src: "/logo.svg" },
-  { name: "Ninjastars", src: "/logo.svg" },
-  { name: "HRBrain", src: "/logo.svg" },
-  { name: "モノタロウ", src: "/logo.svg" },
-  { name: "BIZREACH", src: "/logo.svg" },
-  { name: "Leverages", src: "/logo.svg" },
-  { name: "AwesomeAgent", src: "/logo.svg" },
-  { name: "Digital Hack", src: "/logo.svg" },
-  { name: "TOTAL CREATE", src: "/logo.svg" },
-  { name: "CULEN", src: "/logo.svg" },
-  { name: "Global Japan", src: "/logo.svg" },
-  { name: "アントレ", src: "/logo.svg" },
-  { name: "SC", src: "/logo.svg" },
-  { name: "BAMV", src: "/logo.svg" },
-  { name: "Geekly", src: "/logo.svg" }
+  { name: "日本不動産", src: "/career1/logo.svg" },
+  { name: "Numu", src: "/career1/logo.svg" },
+  { name: "Ninjastars", src: "/career1/logo.svg" },
+  { name: "HRBrain", src: "/career1/logo.svg" },
+  { name: "モノタロウ", src: "/career1/logo.svg" },
+  { name: "BIZREACH", src: "/career1/logo.svg" },
+  { name: "Leverages", src: "/career1/logo.svg" },
+  { name: "AwesomeAgent", src: "/career1/logo.svg" },
+  { name: "Digital Hack", src: "/career1/logo.svg" },
+  { name: "TOTAL CREATE", src: "/career1/logo.svg" },
+  { name: "CULEN", src: "/career1/logo.svg" },
+  { name: "Global Japan", src: "/career1/logo.svg" },
+  { name: "アントレ", src: "/career1/logo.svg" },
+  { name: "SC", src: "/career1/logo.svg" },
+  { name: "BAMV", src: "/career1/logo.svg" },
+  { name: "Geekly", src: "/career1/logo.svg" }
 ];
 
 // Add job listings data
@@ -73,25 +73,25 @@ const REASONS = [
     id: "01",
     title: "転職相談時のサポートの徹底。\n5回以上の面談を実施！",
     description: "当社では皆様ににキャリアアップ（将来・成長性）を見据えた提案を実践しています。求職者様が抱く思いをひとつひとつ分析し、皆様に新たな発見をご提供することで、業界や職種で転職される事例が多く発生しております。",
-    image: "/images/reason1.jpg"
+    image: "/career1/images/reason1.jpg"
   },
   {
     id: "02",
     title: "転職以外のサポートも充実！",
     description: "入社後のサポートも充実。\nいつでも入社後スムーズにコミニケーション取れる体制を整えてます。\n転職してゴールではなく、転職して活躍するまでサポートもさせていただきます。",
-    image: "/images/reason2.jpg"
+    image: "/career1/images/reason2.jpg"
   },
   {
     id: "03",
     title: "非公開案件を優先的にご案内！",
     description: "初回から会社の役員（社長・取締役）の面談が可能。当社は提携している法人様から非公開案件として、ご紹介いただいております。また、経営陣から直接ご紹介いただいているため、優先的に皆様にご紹介することが可能です。",
-    image: "/images/reason3.jpg"
+    image: "/career1/images/reason3.jpg"
   },
   {
     id: "04",
     title: "20代に特化したキャリア形成に強み・20代で\nキャリアについて話したいかた募集中！",
     description: "人生100年時代、プロとして一人一人の将来のキャリア設計に向き合います。今転職すべきか？しないべきか？などのご相談も可能です。弊社は無理に転職を進めることはございません。転職を決断する前からの行動で、納得のいく転職を実現するために、転職の質を上げるサポートをさせていただきます。",
-    image: "/images/reason4.jpg"
+    image: "/career1/images/reason4.jpg"
   }
 ];
 
@@ -108,7 +108,7 @@ const SUCCESS_STORIES = [
       salary: "550万円"
     },
     thoughts: "大手広告代理店にて営業しておりました。営業では社内にて若手と言われた営業成績ではありましたが、社内にて裁量性のある仕事では社内全体で1位になることができました。ただ組織体制の壁もあり、裁量性がなく、また新しい挑戦の場を探しておりました。ZenMatchを通じて、キャリアの相談を繰り返しながら、共に考えていただき、自分に合った企業を紹介いただきました。",
-    image: "/images/success1.jpg"
+    image: "/career1/images/success1.jpg"
   },
   {
     title: "IFA企業へ転職",
@@ -123,7 +123,7 @@ const SUCCESS_STORIES = [
       note: "入社1年半年後"
     },
     thoughts: "転職を考えたきっかけは、今後のキャリアを考えたときに幅広い知識と幅広い商品を提供したいと思ったからです。また個人の営業成績が直接自身に反映される働き方をしたくて転職相談に乗っていただきました。また、紹介していただいた友人もいて、自分も頑張りたいと思い、転職しようと思いました。",
-    image: "/images/success2.jpg"
+    image: "/career1/images/success2.jpg"
   },
   {
     title: "中堅会計コンサルタント会社へ転職",
@@ -137,7 +137,7 @@ const SUCCESS_STORIES = [
       salary: "650万円"
     },
     thoughts: "転職理由はスキルや知識を幅広く学び、年収アップをしたかったからです。経理の実務経験を活かし、会計、財務、税務に関する専門性を深めてスペシャリストを目指すためにコンサルタント会社へと転職しました。将来的に起業を検討しており、今のうちにガンガン吸収したくて、決断しました。",
-    image: "/images/success3.jpg"
+    image: "/career1/images/success3.jpg"
   },
   {
     title: "日系ITスタートアップの経営企画へ転職",
@@ -151,7 +151,7 @@ const SUCCESS_STORIES = [
       salary: "700万円"
     },
     thoughts: "将来は会社経営又は企業したいというビジョンを描き、営業をしながら経営企画の経験も積めるスタートアップへ転職。",
-    image: "/images/success4.jpg"
+    image: "/career1/images/success4.jpg"
   },
   {
     title: "Web系エンジニア 事業会社へ転職",
@@ -165,7 +165,7 @@ const SUCCESS_STORIES = [
       salary: "660万円"
     },
     thoughts: "開発プロジェクトによって開発言語がそれぞれ異なることで、エンジニアとしてのスキルが低くなることに懸念を持ち、エンジニアとして技術力を高めることができる事業会社を目指して、転職。",
-    image: "/images/success5.jpg"
+    image: "/career1/images/success5.jpg"
   }
 ];
 
@@ -538,7 +538,7 @@ export default function Home() {
               <div key={index} className="flex items-center gap-4 bg-white/10 rounded-lg p-6">
                 <div className="flex-shrink-0">
                   <Image
-                    src="/promise-badge.svg"
+                    src="/career1/promise-badge.svg"
                     alt={`Promise ${promise.number}`}
                     width={80}
                     height={80}
@@ -915,7 +915,7 @@ export default function Home() {
             </div>
             <div className="relative aspect-[3/4]">
           <Image
-                src="/images/ceo.jpg"
+                src="/career1/images/ceo.jpg"
                 alt="CEO"
                 fill
                 className="object-cover rounded-lg"

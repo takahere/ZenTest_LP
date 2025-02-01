@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/career1',
+  assetPrefix: '/career1',
   images: {
     remotePatterns: [
       {
@@ -9,7 +11,10 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+    domains: ['picsum.photos'],
+    unoptimized: true
   },
+  output: 'standalone'
 }
 
 module.exports = nextConfig 
