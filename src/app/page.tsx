@@ -514,7 +514,7 @@ export default function Home() {
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-6 mb-16">
-            <p className="text-xl">RYOMAでは「働く人のキャリアを照らす」というミッションのもと、</p>
+            <p className="text-xl">ZenMatchでは「働く人のキャリアを照らす」というミッションのもと、</p>
             <p className="text-xl">あなたの思いを大切にし、すべての思いを実現します。</p>
             <p className="text-xl">また、当社では3つの大切にしている考えに則り、皆様にとって、</p>
             <p className="text-xl">最適なキャリアとなりますよう運営しているため、皆様の大切な思いの実現が可能です。</p>
